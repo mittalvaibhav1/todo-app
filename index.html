@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title> Todo App </title>
+        <link type="text/css" rel="stylesheet" href="./styles.css" />
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+    </head>
+    <body>
+        <div class="app">
+            <div class="todo-container">
+                <h1>TASK LIST</h1>
+                <p>Add tasks to your list by typing to the right and pressing enter. You may                  then view pending tasks below.</p>
+                <ul class="todos"> 
+                    <li>
+                        <p> First Task </p>
+                        <span>
+                            <i class="fas fa-check-square"></i>
+                            <i class="fas fa-times-circle"></i>
+                        </span>
+                    </li>
+                    <li>
+                        <p> Second Task </p> 
+                        <span>
+                            <i class="far fa-square"></i>
+                            <i class="fas fa-times-circle"></i>
+                        </span>
+                    </li>
+                    <li>
+                        <p> Third Task </p>
+                    </li>
+                </ul>
+            </div>
+            <div class="add-todo-container">
+               <form>
+                   <input type="text" name="newtodo" placeholder="I need to..." size="10">
+               </form>
+            </div>
+        </div>
+        <script src="./sandbox.js"></script>
+    </body>
+</html>
